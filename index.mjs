@@ -1,0 +1,4 @@
+// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.0.1-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs";var n=t(Object.assign),s=Object.assign,i=e.getOwnPropertyDescriptor;var o=n?s:function(t){var n,s,o,l,d,j,m,c;if(null==t)throw new TypeError("Cannot convert undefined or null to object");for(j=e(t),m=1;m<arguments.length;m++)if(null!=(n=arguments[m]))for(d=(o=r(e(n))).length,c=0;c<d;c++)l=o[c],void 0!==(s=i(n,l))&&s.enumerable&&(j[l]=n[l]);return j};export{o as default};
+//# sourceMappingURL=index.mjs.map
