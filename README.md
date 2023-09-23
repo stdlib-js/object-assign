@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@deno/mod.js';
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.1.0-deno/mod.js';
 ```
 
 #### assign( target, source1\[, source2\[,...,sourceN]] )
@@ -102,7 +102,7 @@ var bool = ( z === x );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@deno/mod.js';
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.1.0-deno/mod.js';
 
 var obj1 = {
     'name': 'Jane',
