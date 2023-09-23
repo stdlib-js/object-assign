@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/object-assign/tags). For example,
+
+```javascript
 import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.1.0-deno/mod.js';
 ```
 
@@ -102,7 +107,7 @@ var bool = ( z === x );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.1.0-deno/mod.js';
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@deno/mod.js';
 
 var obj1 = {
     'name': 'Jane',
