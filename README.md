@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@esm/index.mjs';
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.1.0-esm/index.mjs';
 ```
 
 #### assign( target, source1\[, source2\[,...,sourceN]] )
@@ -107,7 +107,7 @@ var bool = ( z === x );
 <body>
 <script type="module">
 
-import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@esm/index.mjs';
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.1.0-esm/index.mjs';
 
 var obj1 = {
     'name': 'Jane',
