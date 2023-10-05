@@ -21,34 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var assign = require( './../../dist' );
-var native = require( './../../dist/builtin.js' );
-var polyfill = require( './../../dist/polyfill.js' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof assign, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'if an environment has a built-in implementation, the export is the built-in implementation', function test( t ) {
-	var assign = proxyquire( './../dist', {
-		'./has_object_assign.js': true
-	});
-
-	t.equal( assign, native, 'exports native function' );
-	t.end();
-});
-
-tape( 'if an environment does not have a built-in implementation, the export is a polyfill', function test( t ) {
-	var assign = proxyquire( './../dist', {
-		'./has_object_assign.js': false
-	});
-
-	t.equal( assign, polyfill, 'exports polyfill function' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
