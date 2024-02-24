@@ -1,4 +1,0 @@
-// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@v0.2.0-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-properties@v0.1.0-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@v0.2.0-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";var n=t(Object.assign),i=Object.assign;var l=n?i:function(t){var n,i,l,m,o,d,j;if(null==t)throw new TypeError(r("invalid argument. First argument must be a non-null object. Value: `%s`.",t));for(o=e(t),d=1;d<arguments.length;d++)if(null!=(n=arguments[d]))for(m=(i=s(e(n))).length,j=0;j<m;j++)o[l=i[j]]=n[l];return o};export{l as default};
-//# sourceMappingURL=index.mjs.map
