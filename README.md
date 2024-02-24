@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/object-assign/tags). For example,
+
+```javascript
 import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.2.1-esm/index.mjs';
 ```
 
@@ -107,7 +112,7 @@ var bool = ( z === x );
 <body>
 <script type="module">
 
-import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@v0.2.1-esm/index.mjs';
+import assign from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-assign@esm/index.mjs';
 
 var obj1 = {
     'name': 'Jane',
