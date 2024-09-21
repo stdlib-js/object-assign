@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-19)
+## Unreleased (2024-09-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`f750e12`](https://github.com/stdlib-js/stdlib/commit/f750e12c16e556707750f14c9e51ecce96467e55) - **chore:** fix typo _(by Philipp Burckhardt)_
 
 </details>
