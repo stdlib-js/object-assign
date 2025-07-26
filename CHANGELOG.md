@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-16)
+## Unreleased (2025-07-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a729aff`](https://github.com/stdlib-js/stdlib/commit/a729aff73d715beca8abf52dac480cee4de8dd2c) - **chore:** clean-up and update documentation _(by Athan Reines)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`f750e12`](https://github.com/stdlib-js/stdlib/commit/f750e12c16e556707750f14c9e51ecce96467e55) - **chore:** fix typo _(by Philipp Burckhardt)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
