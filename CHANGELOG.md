@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2026-01-30)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`a729aff`](https://github.com/stdlib-js/stdlib/commit/a729aff73d715beca8abf52dac480cee4de8dd2c) - **chore:** clean-up and update documentation _(by Athan Reines)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`f750e12`](https://github.com/stdlib-js/stdlib/commit/f750e12c16e556707750f14c9e51ecce96467e55) - **chore:** fix typo _(by Philipp Burckhardt)_
