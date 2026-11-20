@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-26)
+## Unreleased (2026-11-20)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#16698](https://github.com/stdlib-js/stdlib/issues/16698)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,8 @@
 
 <details>
 
+-   [`9dab10f`](https://github.com/stdlib-js/stdlib/commit/9dab10f42477d447f393a6a2861a13f0d803fa9f) - **chore:** fix JavaScript lint errors [(#16729)](https://github.com/stdlib-js/stdlib/pull/16729) _(by Aryan Sachin)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
 
@@ -25,8 +39,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan Sachin
 -   Athan Reines
 -   Philipp Burckhardt
 
